@@ -1,3 +1,5 @@
+//Count the occurrences of a given element in an array.
+
 package Arrays;
 import java.util.*;
 
