@@ -1,4 +1,5 @@
-//
+//Give the Optimized range sum queries using prefix sum technique
+
 
 package Arrays;
 
