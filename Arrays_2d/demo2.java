@@ -2,7 +2,7 @@
 
 package Arrays_2d;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class demo2 {
     public static void display(int arr[][]){
@@ -14,9 +14,9 @@ public class demo2 {
         }
     }
     public static void transpose(int arr1[][],int r1,int c1){
-        int narr[][]=new int[r1][c1];
-          for(int i=0;i<arr1.length;i++){
-            for(int j=0;j<arr1[i].length;j++){
+        int narr[][]=new int[c1][r1];
+          for(int i=0;i<c1;i++){
+            for(int j=0;j<r1;j++){
                 narr[i][j]=arr1[j][i];
             }
         }
