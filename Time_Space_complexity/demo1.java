@@ -121,16 +121,34 @@ Theta (Θ): Shows average case time complexity of algorithm.
 // }    
 
 //ex., for Time complexity O(n*√n)
-public class demo1{
-    public static void main(String[] args) {
-        int n=4;
-        for(int i=1;i<=n;i++){      //this loop will run n times
-            for(int j=1;j<=Math.sqrt(i);j++){   //this loop will run also root of n times 
-                System.out.print(i+" "+j+" ");  //total time will require for result O(n*√n)
-           } 
-           System.out.println();
-        }
-    }                                 
-}  
+// public class demo1{
+//     public static void main(String[] args) {
+//         int n=4;
+//         for(int i=1;i<=n;i++){      //this loop will run n times
+//             for(int j=1;j<=Math.sqrt(i);j++){   //this loop will run also root of n times 
+//                 System.out.print(i+" "+j+" ");  //total time will require for result O(n*√n)
+//            } 
+//            System.out.println();
+//         }
+//     }                                 
+// }  
 
+//--------------------------------------------------------- Day 3 -------------------------------------------------------------------------------
+// public class demo1{
+// public static void main(String[] args) {     
+//     int count=0;
+//    for(int i=1;i<n;i*=2) {
+//     count++;
+//    }
+//  }
+// }
 
+/*
+note:-i starts from 1
+Every iteration: i = i*2                           
+Iteration no :-1,2,3,4,5,6,7,Kth....
+So values of i will be:-1,2,4,8,16,32,64,...  (it keeps doubling until i becomes>n.) 
+we know the representation of all i= 2^0,2^1,2^3,2^4,2^k
+*/
+
+//so final Time complexity is:-(base 2 log,but in Big-O we simply write O(log N))
