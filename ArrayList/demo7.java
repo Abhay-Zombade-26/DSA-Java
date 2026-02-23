@@ -24,3 +24,21 @@ public class demo7 {
         System.out.println("Sorted list: " + l1);
     }
 }
+
+
+//sort ArrayList without using get() and set().
+// import java.util.*;
+// public class demo7{
+//     public static void sortList(ArrayList<Integer> l1) {
+//         Collections.sort(l1);//this method inside the ArrayList Package.
+//    }
+//     public static void main(String[] args) {
+//         ArrayList<Integer> l1 = new ArrayList<>();
+//         l1.add(40);
+//         l1.add(10);
+//         l1.add(30);
+//         l1.add(20);
+//         sortList(l1);
+//         System.out.println("Sorted List without using get and set: "+ l1);
+//     }
+//  }
