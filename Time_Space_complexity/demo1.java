@@ -152,3 +152,32 @@ we know the representation of all i= 2^0,2^1,2^3,2^4,2^k
 */
 
 //so final Time complexity is:-(base 2 log,but in Big-O we simply write O(log N))
+
+//--------------------------------------------------------- Day 4 -------------------------------------------------------------------------------
+
+// public class demo1{
+// public static void main(String[] args) {     
+//     int count=0;
+//    for(int i=1;i<n;i*=k) {
+//     count++;
+//    }
+//  }
+// }
+
+/* 
+no. of iteration - value of i
+------------------------------
+1                - 1  k^0 k^1-1
+2                - k  k^1 k^2-1
+3                - k^2 
+4                - k^3
+5                - k^4
+pth              - k^p-1=>k^p
+
+final condition is i<n => k^p<n
+log base k(k^p)<log base k(n)
+p log base k (k)<log base k(n)  //k-k will cancel
+
+then final complexity is :- O(logN)
+
+*/
