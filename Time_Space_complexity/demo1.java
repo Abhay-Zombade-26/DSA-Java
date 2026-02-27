@@ -181,3 +181,59 @@ p log base k (k)<log base k(n)  //k-k will cancel
 then final complexity is :- O(logN)
 
 */
+//--------------------------------------------------------- Day 4 -------------------------------------------------------------------------------
+/*No see the example for practicing the space complexity */
+
+// class demo1 {
+//     public static int[] display(int arr[]){
+//         int n=arr.length;
+//         int nar[]=new int[n];
+//         int j=0;
+//         for(int i=n-1;i>=0;i--){
+//             nar[j++]=arr[i];
+//         }
+//         return nar;
+// }
+//     public static void main(String[] args) {
+//         int arr[]={10,20,30,40,50};
+//          System.out.println("O.G. array:");
+//         for(int k=0;k<arr.length;k++){
+//             System.out.print(arr[k]+" ");
+//         }
+//          System.out.println();
+//          int test[]=display(arr);
+//         System.out.println("Reverse array:"+Arrays.toString(test));
+//     }
+// }
+
+//here the space complexity is= O(N)....(because we used the etc memory for creating the narr[])
+//then we optimized this solution by without using etc array.
+
+// public class demo1 {
+//       public static void display(int arr[]){
+//         int i=0;
+//         int j=arr.length-1;
+//         while(i<j){
+//             int temp=arr[i];
+//             arr[i]=arr[j];
+//             arr[j]=temp;
+//             i++;
+//             j--;
+//         }
+//         for(int k=0;k<arr.length;k++){
+//             System.out.print(arr[k]+" ");
+//     }
+// }
+//     public static void main(String[] args) {
+//         int arr[]={10,20,30,40,50};
+//          System.out.println("O.G. array:");
+//         for(int k=0;k<arr.length;k++){
+//             System.out.print(arr[k]+" ");
+//         }
+//          System.out.println();
+//         System.out.println("Reverse array:");
+//         display(arr);
+//     }
+// }
+
+//now in this code we optimized the solution without creating etc array . so space complexity=O(1)
