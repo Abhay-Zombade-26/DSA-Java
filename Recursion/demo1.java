@@ -52,18 +52,38 @@ package Recursion;
 
 import java.util.*;
 
-public class demo1 {
+// public class demo1 {
+//     public static void display(int n){
+//         if(n==1){
+//             System.out.print(n+" "); //base case
+//             return;
+//         }
+//         display(n-1); //reursive call
+//         System.out.print(n+" "); //self work
+//     }
+//     public static void main(String[] args) {
+//         Scanner sc=new Scanner(System.in);
+//         System.out.println("enter the n for printing 1 to n numbers:");
+//         int n=sc.nextInt();
+//         display(n);
+//     }
+// }
+
+//print n to 1 numbers.
+
+public class demo1{
     public static void display(int n){
         if(n==1){
-            System.out.print(n+" "); //base case
-            return;
+           System.out.print(n+" ");
+           return;
         }
-        display(n-1); //reursive call
-        System.out.print(n+" "); //self work
+        System.out.print(n+" ");
+        display(n-1);
+        return;
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("enter the n for printing 1 to n numbers:");
+        System.out.println("enter the n for printing n to 1 numbers:");
         int n=sc.nextInt();
         display(n);
     }
