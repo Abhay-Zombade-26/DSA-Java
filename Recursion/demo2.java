@@ -18,3 +18,10 @@ public class demo2 {
         System.out.println(display(n));
     }
 }
+
+//Time and space complexity is:-
+ 
+/*
+Time:-(in short)..Nth time function call so., O(n)
+space:-Stack memory created for nth time so., O(n)
+*/
