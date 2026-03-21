@@ -17,3 +17,5 @@ public class demo5 {
         System.out.println("Digits = " + count(n));
     }
 }
+
+//Time comlexity:O(d)...because i will run till digit lenth.. 
