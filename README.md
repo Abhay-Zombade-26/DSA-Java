@@ -81,8 +81,8 @@ Feel free to open an issue — constructive feedback is always welcome!
 If this repository helped you, consider giving it a ⭐
 It motivates me and helps others discover this resource.
 
-<div align="center"> ⭐ Star this repository · 🐛 Report an issue · 🔗 Connect on GitHub </div>
+⭐ Star this repository · 🐛 Report an issue · 🔗 Connect on GitHub </div>
 📬 Connect with Me
 GitHub: Abhay9326397439
 
-<div align="center"> 💯 <em>"Consistency beats talent when talent doesn't work hard."</em> </div> ```
+ 💯 "Consistency beats talent when talent doesn't work hard."
