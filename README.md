@@ -2,7 +2,7 @@
 
 A structured and consistent journey of mastering **Data Structures and Algorithms using Java**, focused on building strong problem-solving skills and preparing for technical interviews.
 
----
+----
 
 ## 📖 About
 
